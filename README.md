@@ -7,8 +7,7 @@ This project is an assessment for a technical interview demonstrating basic Reac
 
 - Feature 1: Next JS basic Setup
 - Feature 2: Tailwind styling
-- Feature 3: Optimized images with lazy loading and blur
-- Feature 4: Optimal code structure
+- Feature 3: Optimal code structure
 
 ## Technologies Used
 - Frontend: Next JS
