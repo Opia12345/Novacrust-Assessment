@@ -44,7 +44,7 @@ const CryptoForm: React.FC = () => {
     onSubmit: (values: FormValues, { resetForm }) => {
       setIsSubmitting(true);
 
-      //Simulate API call
+      // Simulate API call
       setTimeout(() => {
         setIsSubmitting(false);
         resetForm();
@@ -117,7 +117,8 @@ const CryptoForm: React.FC = () => {
           <button
             type="button"
             onClick={() => formik.handleSubmit()}
-            className="btn text-sm sm:text-base"
+            className="btn text-sm sm:text-base disabled:opacity-25 disabled:cursor-not-allowed"
+            disabled={isSubmitting}
           >
             {isSubmitting ? "Converting..." : "Convert now"}
           </button>
