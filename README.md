@@ -26,6 +26,7 @@ This project requires [Node.js](https://nodejs.org/) v17+ to run.
 - Use npm run dev to start the local development server.
 
 ```sh
+git clone https://github.com/Opia12345/Novacrust-Assessment.git
 cd Novacrust-Assessment
 npm i
 npm run dev
