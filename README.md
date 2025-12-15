@@ -1,4 +1,4 @@
-# KeySystem
+# Novacrust Assessment
 ## Project Overview
 
 This project is an assessment for a technical interview demonstrating basic React/Next JS principles, code structure, animations and micro-interactions. It provides an example of what user experience should feel like for every basic web application.
@@ -31,7 +31,7 @@ cd Novacrust-Assessment
 npm i
 npm run dev
 ```
-Preview the live page of [KeySystem](https://novacrust-assessment.vercel.app/).
+Preview the live page of [Novacrust Assessment](https://novacrust-assessment.vercel.app/).
 
 > [!IMPORTANT]
 > The packages on this website will most likely not be updated.
