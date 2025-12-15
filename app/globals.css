@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+.green {
+  background-color: #013941;
+}
+.grey {
+  background-color: #f2f2f2;
+}
+.form_input {
+  @apply w-full px-4 py-3 border border-slate-200 rounded-full text-left flex items-center justify-between hover:bg-gray-100 transition-colors;
+}
+
+.select {
+  @apply flex items-center gap-2 bg-slate-200/50 border border-gray-300 px-4 py-2 rounded-full hover:shadow-md transition-shadow;
+}
+
+.btn {
+  @apply w-full bg-[#013941] text-white font-semibold py-4 rounded-full hover:-translate-y-1 transition-all ease-in-out duration-300 cursor-pointer shadow-lg;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
